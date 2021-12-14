@@ -1,0 +1,84 @@
+
+:root{
+
+    --borderColor: rgb(107,105,105);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+     
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.votContainer{
+
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     border: 2px solid var(--borderColor);
+     width: 60px;
+     height: 60px;
+     border-radius: 70% ;
+     transition: 0.2s;
+}
+.votContainer div{
+    padding: 1px;
+     font-size: 14px;    
+     transition: 0.2s;
+
+}
+
+.votContainer:hover{
+
+     border: none;
+     width: 60px;
+     height: 100px;
+     border-radius: 50px;
+}
+
+.votContainer div:hover{
+      
+     font-size: 23px;
+}
+
+.votContainer div:first-child:hover{
+
+     padding: 12px 19px;
+     border-radius: 50px 50px 0 0;
+     background: linear-gradient(145deg,#cacaca ,#f0f0f0);
+     box-shadow: 4px 4px 8px #bebebe, -4px -4px 8px #ffffff;
+
+}
+.votContainer div:first-child:active{
+
+     background-color: aqua;
+     background: chartreuse;
+     font-size: 23px;
+
+
+}
+.votContainer div:first-child::content{
+
+     background-color: aqua;
+     background: chartreuse;
+     font-size: 23px;
+
+
+}
+
+.votContainer div:last-child:hover {
+
+    border: 1px solid #000;
+    padding: 12px 19px ;
+    border-radius: 0 0 50px 50px ;
+    background: linear-gradient(145deg,#cacaca ,#f0f0f0);
+     box-shadow: 4px 4px 8px #bebebe, -4px -4px 8px #ffffff;
+
+}

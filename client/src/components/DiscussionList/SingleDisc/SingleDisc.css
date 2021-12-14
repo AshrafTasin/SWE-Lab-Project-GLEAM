@@ -1,0 +1,101 @@
+.singleDisc {
+    flex: 9;
+  }
+.float-parent-element { 
+    width: 80%; 
+} 
+.float-child-element { 
+    float: right; 
+    width: 100%; 
+    margin-top: -30px;
+    margin-right: -100px;
+} 
+.float-child-element2 { 
+
+  width: 50%; 
+  margin-left: -00px;
+  margin-top: 10px;
+  /* padding-top: 100px; */
+}
+.parent{
+   
+  padding: 2;
+
+}
+.child{
+  display: inline-block;
+}
+
+.child1{
+  width: 7%;
+  vertical-align: top;
+  margin-top: 60px;
+ 
+}
+.child2{
+
+   width: 85%;
+   margin-left: 90px;
+}
+  
+  .singleDiscWrapper {
+    padding: 20px;
+    padding-right: 0;
+  }
+  
+  .singleDiscImg {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+  
+  .singleDiscTitle {
+    text-align: center;
+    margin: 10px;
+    font-size: 28px;
+    font-family: 'Merriweather', serif;
+    padding-top: 20px;
+  }
+  
+  .singleDiscEdit {
+    float: right;
+    font-size: 16px;
+  }
+  
+  .singleDiscIcon {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .singleDiscIcon:first-child {
+    color: teal;
+  }
+  .singleDiscIcon:last-child {
+    color: tomato;
+  }
+  
+  .singleDiscInfo {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #be9656;
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+  }
+  
+  .singleDiscAuthor{
+    margin-left: 5px;
+  }
+  
+  .singleDiscDesc {
+    color: #000000;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  
+  .singleDiscDesc::first-letter {
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+  }

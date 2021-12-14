@@ -1,0 +1,23 @@
+.containered {
+    min-height: 50vh;
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageArea{
+  object-fit: contain;
+}
+
+#coverpic{
+
+  max-width: 100%;
+  max-height:300px;
+  min-height:300px ;
+
+  min-width: 97%;
+
+  object-fit: cover;
+}

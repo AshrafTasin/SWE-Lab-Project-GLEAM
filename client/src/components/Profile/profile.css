@@ -1,0 +1,10 @@
+.authorimage{
+    max-width: 130px;
+    max-height: 130px;
+    /* border-radius: 50%; */
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-bottom: 20px;
+    /* display: block; */
+    object-fit: contain;
+}

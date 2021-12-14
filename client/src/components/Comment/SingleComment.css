@@ -1,0 +1,53 @@
+
+.replytoclass{
+
+     text-decoration: underline;
+     margin-top: 25px;
+}
+.replytoclass:hover{
+    cursor: pointer;
+}
+#contentOfSingleComment{
+
+    /* font-family: 'Jura', sans-serif; */
+    font-family: 'Readex Pro', sans-serif;
+    float: left;
+    width: 150px;
+    margin-left: 11px;
+    margin-top: 9px;
+    margin-bottom: 6px;
+}
+#writername{
+   
+    margin-left: 10px;
+    font-size: medium;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+}
+#wrapper {
+    width: 100%;
+    height: auto;
+    background-color:   #ffffff  ;
+    margin-bottom: 10px;
+}
+#CommentTemplate {
+
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+/* #ParentRow { 
+    white-space: nowrap; 
+    overflow-x: auto;
+    width: 50%;
+}
+
+.CommentTemplate{ 
+    
+    display: inline-block;
+    width: 50%;
+} */
