@@ -1,6 +1,9 @@
 # Motivation :
 This project is a part of course CSE-332 (Software Engineering Lab). Our motivation was to create a platform for blockchain enthusiastic people. As blockchain is a new technology, the resource on this topic is very difficult to find. We wanted to create a platform where people can share detailed hands-on tutorial or their ideas on various topics of blockchain. Also, when developing any blockchain application/gathering information on any particular blockchain related topic, people may find difficulties and many question may arise. So we added a Q/A sector. Basically this project is one kind of a mixture of medium and stackoverflow. Here people can share their knowledge and help each other when necessary.
 
+# Contributors
+#### 2017331014 ( Ashraf Tasin ) and  2017331064 (Joydip das)  from CSE,SUST
+
 # Key Features :
 1. Posting Blogs
 2. Giving reputations to a blog
@@ -38,11 +41,14 @@ REFRESH_TOKEN= // your refresh token from google id
 ```bash
 npm start
 ```
+* if you face errors in step 5, you might try to run 'npm start' from 'client' folder .
+
 6. Change your directory to `server` and run :
 ```bash
 npm start
 ```
 If everything goes correctly, your client side and server side both should be up and running and you'll be able to sign up and continue using the application by yourself.
+
 
 # Video Presentation :
 Click on the image below to see the video presentation of this project.
