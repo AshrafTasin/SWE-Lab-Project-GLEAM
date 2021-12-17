@@ -41,7 +41,7 @@ REFRESH_TOKEN= // your refresh token from google id
 ```bash
 npm start
 ```
-* if you face errors in step 5, you might try to run 'npm start' from 'client' folder .
+* if you face errors in step 5, you might try to run `npm start` from `client` folder .
 
 6. Change your directory to `server` and run :
 ```bash
