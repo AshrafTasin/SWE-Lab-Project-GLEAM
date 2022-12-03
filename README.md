@@ -4,12 +4,15 @@ This project is a part of course CSE-332 (Software Engineering Lab). Our motivat
 # Contributors
 #### 2017331014 ( Ashraf Tasin ) and  2017331064 (Joydip das)  from CSE,SUST
 
+## Language: 
+- **MERN Stack**
+
 # Key Features :
-1. Posting Blogs
-2. Giving reputations to a blog
+1. Posting Blogs with text/image/hyperlinks/etc.
+2. Giving reputation points to a blog
 3. Creating a discussion sector
 4. Marking a discussion as solved/Unsolved
-5. Comments and giving replies to other's comments
+5. Comments and giving replies to other's comments( reply to a specific users comment , and that user can reply to the comment that you just commented .Like facebook **create branches of comment & replies**)
 6. Editing personal profile
 7. Giving upvotes/downvotes to a question
 
