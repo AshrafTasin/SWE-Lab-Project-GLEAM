@@ -7,6 +7,14 @@ This project is a part of course CSE-332 (Software Engineering Lab). Our motivat
 ## Language: 
 - **MERN Stack**
 
+# Video Presentation :
+Click on the image below to see the video presentation of this project.
+
+<a href="https://www.youtube.com/watch?v=pud36QdbYac">
+   <img src="https://i.ibb.co/KXLPPvq/ytt.png" alt="https://www.youtube.com/watch?v=pud36QdbYac"  border="1">
+</a>
+
+
 # Key Features :
 1. Posting Blogs with text/image/hyperlinks/etc.
 2. Giving reputation points to a blog
@@ -16,7 +24,14 @@ This project is a part of course CSE-332 (Software Engineering Lab). Our motivat
 6. Editing personal profile
 7. Giving upvotes/downvotes to a question
 
-
+# Sample Images :
+<img src="sampleImages/Blogs.png">
+<img src="sampleImages/Discussions.png">
+<img src="sampleImages/home.png">
+<img src="sampleImages/NewBlog.png">
+<img src="sampleImages/SingleBlog.png">
+<img src="sampleImages/SingleQA.png">
+<img src="sampleImages/UpdateProfile.png">
 
 # How To Run This Project :
 1. Clone this repository into your local machine.
@@ -53,16 +68,4 @@ npm start
 If everything goes correctly, your client side and server side both should be up and running and you'll be able to sign up and continue using the application by yourself.
 
 
-# Video Presentation :
-Click on the image below to see the video presentation of this project.
 
-[![](https://img.youtube.com/vi/pud36QdbYac/0.jpg)](https://www.youtube.com/watch?v=pud36QdbYac)
-
-# Sample Images :
-<img src="sampleImages/Blogs.png">
-<img src="sampleImages/Discussions.png">
-<img src="sampleImages/home.png">
-<img src="sampleImages/NewBlog.png">
-<img src="sampleImages/SingleBlog.png">
-<img src="sampleImages/SingleQA.png">
-<img src="sampleImages/UpdateProfile.png">
